@@ -9,7 +9,7 @@ using namespace std;
 std::string CPPLib::PrintHelloWorld() { return "**** Hello World ****"; }
 std::string CPPLib::PrintIntro() { 
   string line;
-  ifstream myfile ("/Users/max/Desktop/EE599/EE599_Lab1/pikachu.txt");
+  ifstream myfile ("/Users/max/Desktop/EE599/EE559_Lab1/pikachu.txt");
   if (myfile.is_open())
   {
     while ( getline (myfile,line))
